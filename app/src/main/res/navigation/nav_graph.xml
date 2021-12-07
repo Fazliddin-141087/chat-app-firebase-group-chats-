@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/registrFragment"
+        android:name="uz.mobiler.ppdgram.RegistrFragment"
+        android:label="fragment_registr"
+        tools:layout="@layout/fragment_registr" >
+        <action
+            android:id="@+id/action_registrFragment_to_groupMessegesFragment"
+            app:destination="@id/groupMessegesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/usersFragment"
+        android:name="uz.mobiler.ppdgram.UsersFragment"
+        android:label="fragment_users"
+        tools:layout="@layout/fragment_users" >
+        <action
+            android:id="@+id/action_usersFragment_to_groupsFragment"
+            app:destination="@id/groupsFragment" />
+        <action
+            android:id="@+id/action_usersFragment_to_messegesFragment"
+            app:destination="@id/messegesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/groupsFragment"
+        android:name="uz.mobiler.ppdgram.GroupsFragment"
+        android:label="fragment_groups"
+        tools:layout="@layout/fragment_groups" >
+        <action
+            android:id="@+id/action_groupsFragment_to_registrFragment"
+            app:destination="@id/registrFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="uz.mobiler.ppdgram.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_usersFragment"
+            app:destination="@id/usersFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/messegesFragment"
+        android:name="uz.mobiler.ppdgram.MessegesFragment"
+        android:label="fragment_messeges"
+        tools:layout="@layout/fragment_messeges" />
+    <fragment
+        android:id="@+id/groupMessegesFragment"
+        android:name="uz.mobiler.ppdgram.GroupMessegesFragment"
+        android:label="fragment_group_messeges"
+        tools:layout="@layout/fragment_group_messeges" />
+    <activity
+        android:id="@+id/splashActivity"
+        android:name="uz.mobiler.ppdgram.SplashActivity"
+        android:label="activity_splash"
+        tools:layout="@layout/activity_splash" />
+    <activity
+        android:id="@+id/registrActivity"
+        android:name="uz.mobiler.ppdgram.RegistrActivity"
+        android:label="activity_registr"
+        tools:layout="@layout/activity_registr" />
+</navigation>

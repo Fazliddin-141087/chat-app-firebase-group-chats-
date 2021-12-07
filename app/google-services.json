@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "2199524483",
+    "firebase_url": "https://pdpgram-8bebf-default-rtdb.firebaseio.com",
+    "project_id": "pdpgram-8bebf",
+    "storage_bucket": "pdpgram-8bebf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2199524483:android:07f293eaffdd118ed8f7b6",
+        "android_client_info": {
+          "package_name": "uz.mobiler.ppdgram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2199524483-250n1aq902qqu3bkbc1vcool1r5gv116.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAermAuCcChB2aenX6adG1Ca9E-oCdE7lA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2199524483-250n1aq902qqu3bkbc1vcool1r5gv116.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

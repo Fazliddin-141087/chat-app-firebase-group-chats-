@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="end"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/style_massage_from"
+        android:gravity="right|center"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/massage_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Assalomu Aleykum qandaysiz"
+            android:textColor="@color/black"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/date_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:text="30.11.2021 08:50"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:textStyle="italic" />
+
+</LinearLayout>
